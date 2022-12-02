@@ -1143,6 +1143,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "zetachain",
+  "icons": [{
+    "url": "ipfs://QmeABfwZ2nAxDzYyqZ1LEypPgQFMjEyrx8FfnoPLkF8R3f",
+    "width": 1280,
+    "height": 1280,
+    "format": "png"
+  }]
+}, {
   "name": "fncy",
   "icons": [{
     "url": "ipfs://QmfXCh6UnaEHn3Evz7RFJ3p2ggJBRm9hunDHegeoquGuhD",

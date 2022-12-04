@@ -415,6 +415,14 @@
     "format": "png"
   }]
 }, {
+  "name": "altcoinchain",
+  "icons": [{
+    "url": "ipfs://QmYwHmGC9CRVcKo1LSesqxU31SDj9vk2iQxcFjQArzhix4",
+    "width": 720,
+    "height": 720,
+    "format": "png"
+  }]
+}, {
   "name": "map",
   "icons": [{
     "url": "ipfs://QmcLdQ8gM4iHv3CCKA9HuxmzTxY4WhjWtepUVCc3dpzKxD",
@@ -508,6 +516,14 @@
     "url": "ipfs://QmQySjAoWHgk3ou1yvBi2TrTcgH6KhfGiU7GcrLzrAeRkE",
     "width": 250,
     "height": 250,
+    "format": "png"
+  }]
+}, {
+  "name": "aves",
+  "icons": [{
+    "url": "ipfs://QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn",
+    "width": 232,
+    "height": 232,
     "format": "png"
   }]
 }, {
@@ -1004,6 +1020,14 @@
     "url": "ipfs://QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ",
     "width": 1280,
     "height": 1280,
+    "format": "png"
+  }]
+}, {
+  "name": "avescan",
+  "icons": [{
+    "url": "ipfs://QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn",
+    "width": 232,
+    "height": 232,
     "format": "png"
   }]
 }, {

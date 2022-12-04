@@ -3938,6 +3938,19 @@
   "faucets": [],
   "infoURL": "https://bo.vcex.xyz/"
 }, {
+  "name": "Altcoinchain",
+  "chainId": 2330,
+  "shortName": "alt",
+  "networkId": 12345,
+  "nativeCurrency": {
+    "name": "Altcoin",
+    "symbol": "ALT",
+    "decimals": 18
+  },
+  "rpc": ["http://161.35.101.221:8545", "https://rpc0.altcoinchain.org"],
+  "faucets": [],
+  "infoURL": "https://altcoinchain.org"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
@@ -5627,6 +5640,19 @@
   "rpc": ["https://mainnet.anyswap.exchange", "https://fsn.dev/api"],
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
+}, {
+  "name": "Aves Mainnet",
+  "chainId": 33333,
+  "shortName": "avs",
+  "networkId": 33333,
+  "nativeCurrency": {
+    "name": "Aves",
+    "symbol": "AVS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://avescoin.io"
 }, {
   "name": "Q Mainnet",
   "chainId": 35441,

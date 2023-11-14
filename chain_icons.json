@@ -73,9 +73,9 @@
 }, {
   "name": "frameTestnet",
   "icons": [{
-    "url": "ipfs://QmTS1P9sh49zg5xL5BUsRLWDz3vVoJCtCNf9yN1TTnsuQ3",
-    "width": 321,
-    "height": 320,
+    "url": "ipfs://QmRxeKFwBwrXyDksoN4NzNRp3R35s8pVnTBfBj4AJSCq5g",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -591,6 +591,14 @@
     "format": "png"
   }]
 }, {
+  "name": "lachain-network",
+  "icons": [{
+    "url": "ipfs://QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ",
+    "width": 1280,
+    "height": 1280,
+    "format": "png"
+  }]
+}, {
   "name": "laos",
   "icons": [{
     "url": "ipfs://QmZ4YYcvhcaeotMPaGXC5Vab7JFaVkka37V8TiTJpT7Mak",
@@ -847,6 +855,14 @@
     "format": "png"
   }]
 }, {
+  "name": "xcap",
+  "icons": [{
+    "url": "ipfs://QmeTj6tfaw9qf9wnEUQh7PnCpNWyvm56e7kY35kANRWNxj",
+    "width": 1600,
+    "height": 1600,
+    "format": "png"
+  }]
+}, {
   "name": "kalarscan",
   "icons": [{
     "url": "ipfs://bafkreidbzzv3lrwlzquhlpl4jcmr54sifhi5ufoek6olb5kjh3h3kvktdq",
@@ -935,14 +951,6 @@
     "format": "png"
   }]
 }, {
-  "name": "LaChain",
-  "icons": [{
-    "url": "ipfs://QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ",
-    "width": 1280,
-    "height": 1280,
-    "format": "png"
-  }]
-}, {
   "name": "pom",
   "icons": [{
     "url": "ipfs://QmePhfibWz9jnGUqF9Rven4x734br1h3LxrChYTEjbbQvo",
@@ -1012,6 +1020,14 @@
     "url": "ipfs://QmRGJ6PqYHDTWuUQ6xfnK8S82NzRXiMjTnSGat9qtLuaLP",
     "width": 400,
     "height": 400,
+    "format": "png"
+  }]
+}, {
+  "name": "lachain-io",
+  "icons": [{
+    "url": "ipfs://QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ",
+    "width": 1280,
+    "height": 1280,
     "format": "png"
   }]
 }, {
@@ -1615,6 +1631,14 @@
     "format": "png"
   }]
 }, {
+  "name": "janusnetwork",
+  "icons": [{
+    "url": "ipfs://bafkreifc3vnwf4hj3bo6fg4u5qlqmjgajjgezyeg236qjcihl4ha42siuq",
+    "width": 819,
+    "height": 792,
+    "format": "png"
+  }]
+}, {
   "name": "nativ3",
   "icons": [{
     "url": "ipfs://QmVzJDndPui6qBSeJWe5kMLA56C3KpVhqqqk9xvVKE1DGb",
@@ -1743,14 +1767,6 @@
     "format": "png"
   }]
 }, {
-  "name": "lachain",
-  "icons": [{
-    "url": "ipfs://QmQxGA6rhuCQDXUueVcNvFRhMEWisyTmnF57TqL7h6k6cZ",
-    "width": 1280,
-    "height": 1280,
-    "format": "png"
-  }]
-}, {
   "name": "satoshie",
   "icons": [{
     "url": "ipfs://QmRHT4o9ihiY6nVkkRdwZjdugbEAQiXrrov3GS9a3GTuL7",
@@ -1785,7 +1801,7 @@
 }, {
   "name": "fuse",
   "icons": [{
-    "url": "ipfs://bafkreiaplzptahvpac43flw4eplqkim4zxwurnz4nipz3zxip4wkisidxi",
+    "url": "ipfs://QmR3gooSiRfCuryT2y7Q37a3DqmdCKvV6vYp1fVpJW3VWz",
     "width": 800,
     "height": 800,
     "format": "png"
@@ -2425,9 +2441,9 @@
 }, {
   "name": "vitainu",
   "icons": [{
-    "url": "ipfs://bafkreidtie4srt52ry67wd3dpxhklmug2ozrawvf3jdlljveinp3frutra",
-    "width": 2000,
-    "height": 392,
+    "url": "ipfs://bafybeiderli6uaaxk7eboyf7g4abnybgrkbglmqbkmf25z57ode7zdzmvy",
+    "width": 613,
+    "height": 613,
     "format": "png"
   }]
 }, {
@@ -2804,6 +2820,14 @@
     "url": "ipfs://QmYQp3e52KjkT4bYdAvB6ACEEpXs2D8DozsDitaADRY2Ak",
     "width": 1024,
     "height": 998,
+    "format": "png"
+  }]
+}, {
+  "name": "ecrox",
+  "icons": [{
+    "url": "ipfs://bafkreibnqdlwgotu4hwx6oeu4ye3huobr3eaiuvv55n5tolyxya2q7edmq",
+    "width": 300,
+    "height": 300,
     "format": "png"
   }]
 }, {

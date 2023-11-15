@@ -9931,7 +9931,7 @@
   "name": "Krest Network",
   "chain": "Krest",
   "icon": "krest",
-  "rpc": ["https://erpc-krest.peaq.network"],
+  "rpc": ["https://erpc-krest.peaq.network", "https://krest.unitedbloc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Krest",
@@ -19852,6 +19852,20 @@
     "icon": "bitfinity",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Digit Soul Smart Chain 2",
+  "chain": "DS2",
+  "rpc": ["http://dgs-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "DS2",
+  "chainId": 363636,
+  "networkId": 363636
 }, {
   "name": "HAPchain Testnet",
   "chain": "HAPchain",

@@ -6430,7 +6430,7 @@
     "symbol": "KRST",
     "decimals": 18
   },
-  "rpc": ["https://erpc-krest.peaq.network"],
+  "rpc": ["https://erpc-krest.peaq.network", "https://krest.unitedbloc.com"],
   "faucets": [],
   "infoURL": "https://www.peaq.network"
 }, {
@@ -12712,6 +12712,19 @@
   "rpc": ["https://testnet.bitfinity.network"],
   "faucets": ["https://bitfinity.network/faucet"],
   "infoURL": "https://bitfinity.network"
+}, {
+  "name": "Digit Soul Smart Chain 2",
+  "chainId": 363636,
+  "shortName": "DS2",
+  "networkId": 363636,
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "rpc": ["http://dgs-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "HAPchain Testnet",
   "chainId": 373737,

@@ -593,7 +593,7 @@
     "symbol": "RING",
     "decimals": 18
   },
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia2.api.onfinality.io/public-ws", "https://darwinia-rpc.dwellir.com"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
   "infoURL": "https://darwinia.network/"
 }, {
@@ -2089,8 +2089,8 @@
     "decimals": 18
   },
   "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
-  "faucets": ["https://www.oklink.com/okbc-test"],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
+  "faucets": ["https://www.okx.com/x1/faucet"],
+  "infoURL": "https://www.okx.com/x1"
 }, {
   "name": "X1 Mainnet",
   "chainId": 196,
@@ -2103,7 +2103,7 @@
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain"
+  "infoURL": "https://www.okx.com/x1"
 }, {
   "name": "Neutrinos TestNet",
   "chainId": 197,
@@ -7526,6 +7526,19 @@
   "faucets": [],
   "infoURL": "https://blackfort.exchange"
 }, {
+  "name": "Globel Chain",
+  "chainId": 4893,
+  "shortName": "GC",
+  "networkId": 4893,
+  "nativeCurrency": {
+    "name": "Globel Chain",
+    "symbol": "GC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gcscan.io"],
+  "faucets": [],
+  "infoURL": "https://gcscan.io"
+}, {
   "name": "Venidium Testnet",
   "chainId": 4918,
   "shortName": "txvm",
@@ -7639,7 +7652,7 @@
     "symbol": "FTN",
     "decimals": 18
   },
-  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com"],
+  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com", "https://bahamut.publicnode.com", "wss://bahamut.publicnode.com"],
   "faucets": [],
   "infoURL": "https://bahamut.io"
 }, {
@@ -7954,6 +7967,19 @@
   "rpc": ["https://node-api.uptn.io/v1/ext/rpc"],
   "faucets": [],
   "infoURL": "https://uptn.io"
+}, {
+  "name": "Digit Soul Smart Chain",
+  "chainId": 6363,
+  "shortName": "DGS",
+  "networkId": 6363,
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "rpc": ["https://dsc-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Peerpay",
   "chainId": 6502,
@@ -8526,6 +8552,19 @@
   "rpc": ["https://pre-boc1.beonechain.com"],
   "faucets": ["https://testnet.beonescan.com/faucet"],
   "infoURL": "https://testnet.beonescan.com"
+}, {
+  "name": "Torus Mainnet",
+  "chainId": 8192,
+  "shortName": "tqf",
+  "networkId": 8192,
+  "nativeCurrency": {
+    "name": "TQF",
+    "symbol": "TQF",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.toruschain.com"],
+  "faucets": [],
+  "infoURL": "https://docs.toruschain.com"
 }, {
   "name": "Torus Testnet",
   "chainId": 8194,
@@ -9108,7 +9147,7 @@
     "symbol": "MIND",
     "decimals": 18
   },
-  "rpc": ["https://rpc-msc.mindchain.info/", "https://seednode.mindchain.info", "wss://seednode.mindchain.info/ws"],
+  "rpc": ["https://rpc-msc.mindchain.info/", "https://seednode.mindchain.info", "https://archive.mindchain.info/", "wss://archive.mindchain.info/ws", "wss://seednode.mindchain.info/ws"],
   "faucets": [],
   "infoURL": "https://mindchain.info"
 }, {
@@ -10437,6 +10476,19 @@
   "rpc": ["https://api.zq2-devnet.zilstg.dev"],
   "faucets": ["https://faucet.zq2-devnet.zilstg.dev"],
   "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "Mode",
+  "chainId": 34443,
+  "shortName": "mode",
+  "networkId": 34443,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.mode.network"],
+  "faucets": [],
+  "infoURL": "https://docs.mode.network/"
 }, {
   "name": "J2O Taro",
   "chainId": 35011,
@@ -12722,7 +12774,7 @@
     "symbol": "DGC",
     "decimals": 18
   },
-  "rpc": ["http://dgs-rpc.digitsoul.co.th"],
+  "rpc": ["https://dgs-rpc.digitsoul.co.th"],
   "faucets": [],
   "infoURL": ""
 }, {

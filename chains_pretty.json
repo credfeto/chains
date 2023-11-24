@@ -879,7 +879,7 @@
 }, {
   "name": "Darwinia Network",
   "chain": "darwinia",
-  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia2.api.onfinality.io/public-ws", "https://darwinia-rpc.dwellir.com"],
+  "rpc": ["https://rpc.darwinia.network", "https://darwinia-rpc.darwiniacommunitydao.xyz", "https://darwinia-rpc.dwellir.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Darwinia Network Native Token",
@@ -3132,20 +3132,20 @@
   "name": "X1 Testnet",
   "chain": "X1",
   "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com"],
-  "faucets": ["https://www.oklink.com/okbc-test"],
+  "faucets": ["https://www.okx.com/x1/faucet"],
   "nativeCurrency": {
     "name": "X1 Global Utility Token in testnet",
     "symbol": "OKB",
     "decimals": 18
   },
   "features": [],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain",
+  "infoURL": "https://www.okx.com/x1",
   "shortName": "tokb",
   "chainId": 195,
   "networkId": 195,
   "explorers": [{
     "name": "OKLink",
-    "url": "https://www.oklink.com/okbc-test",
+    "url": "https://www.oklink.com/x1-test",
     "standard": "EIP3091"
   }],
   "status": "active"
@@ -3160,7 +3160,7 @@
     "decimals": 18
   },
   "features": [],
-  "infoURL": "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain",
+  "infoURL": "https://www.okx.com/x1",
   "shortName": "okb",
   "chainId": 196,
   "networkId": 196,
@@ -11698,6 +11698,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Globel Chain",
+  "chain": "GC",
+  "icon": "globelchain",
+  "rpc": ["https://rpc.gcscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Globel Chain",
+    "symbol": "GC",
+    "decimals": 18
+  },
+  "infoURL": "https://gcscan.io",
+  "shortName": "GC",
+  "chainId": 4893,
+  "networkId": 4893,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://gcscan.io",
+    "standard": "none"
+  }]
+}, {
   "name": "Venidium Testnet",
   "chain": "XVM",
   "rpc": ["https://rpc-evm-testnet.venidium.io"],
@@ -11880,7 +11900,7 @@
   "title": "Bahamut mainnet",
   "chain": "Bahamut",
   "icon": "bahamut",
-  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com"],
+  "rpc": ["https://rpc1.bahamut.io", "https://rpc2.bahamut.io", "wss://ws1.sahara.bahamutchain.com", "wss://ws2.sahara.bahamutchain.com", "https://bahamut.publicnode.com", "wss://bahamut.publicnode.com"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -12387,6 +12407,20 @@
     "url": "https://explorer.uptn.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Digit Soul Smart Chain",
+  "chain": "DGS",
+  "rpc": ["https://dsc-rpc.digitsoul.co.th"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Digit Coin",
+    "symbol": "DGC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "DGS",
+  "chainId": 6363,
+  "networkId": 6363
 }, {
   "name": "Peerpay",
   "chain": "P2P",
@@ -13285,6 +13319,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Torus Mainnet",
+  "chain": "TQF",
+  "icon": "torus",
+  "rpc": ["https://rpc.toruschain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "TQF",
+    "symbol": "TQF",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.toruschain.com",
+  "shortName": "tqf",
+  "chainId": 8192,
+  "networkId": 8192,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://toruscan.com",
+    "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Torus Testnet",
   "chain": "TQF",
   "icon": "torus",
@@ -14143,7 +14198,7 @@
   "name": "Mind Smart Chain Mainnet",
   "chain": "MIND",
   "icon": "mindchain",
-  "rpc": ["https://rpc-msc.mindchain.info/", "https://seednode.mindchain.info", "wss://seednode.mindchain.info/ws"],
+  "rpc": ["https://rpc-msc.mindchain.info/", "https://seednode.mindchain.info", "https://archive.mindchain.info/", "wss://archive.mindchain.info/ws", "wss://seednode.mindchain.info/ws"],
   "faucets": [],
   "nativeCurrency": {
     "name": "MIND Coin",
@@ -16248,6 +16303,26 @@
     "name": "Zilliqa 2 EVM Devnet Explorer",
     "url": "https://explorer.zq2-devnet.zilstg.dev",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Mode",
+  "chain": "ETH",
+  "rpc": ["https://mainnet.mode.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.mode.network/",
+  "shortName": "mode",
+  "chainId": 34443,
+  "networkId": 34443,
+  "icon": "mode",
+  "explorers": [{
+    "name": "modescout",
+    "url": "https://explorer.mode.network",
+    "standard": "none"
   }]
 }, {
   "name": "J2O Taro",
@@ -19855,7 +19930,7 @@
 }, {
   "name": "Digit Soul Smart Chain 2",
   "chain": "DS2",
-  "rpc": ["http://dgs-rpc.digitsoul.co.th"],
+  "rpc": ["https://dgs-rpc.digitsoul.co.th"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Digit Coin",

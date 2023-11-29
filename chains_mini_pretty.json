@@ -3015,6 +3015,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "Geso Verse",
+  "chainId": 428,
+  "shortName": "GSV",
+  "networkId": 428,
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.verse.gesoten.com/"],
+  "faucets": [],
+  "infoURL": "https://gesoten.com/"
+}, {
   "name": "Obscuro Testnet",
   "chainId": 443,
   "shortName": "obs-testnet",
@@ -3258,7 +3271,7 @@
     "symbol": "SYS",
     "decimals": 18
   },
-  "rpc": ["https://rpc.rollux.com", "https://rollux.public-rpc.com", "wss://rpc.rollux.com/wss"],
+  "rpc": ["https://rpc.rollux.com", "wss://rpc.rollux.com/wss"],
   "faucets": ["https://rollux.id/faucetapp"],
   "infoURL": "https://rollux.com"
 }, {
@@ -5394,18 +5407,18 @@
   "faucets": [],
   "infoURL": "https://bitcoinasset.io/"
 }, {
-  "name": "Horizen Yuma Testnet Deprecated",
+  "name": "Liquichain",
   "chainId": 1662,
-  "shortName": "Yuma",
+  "shortName": "Liquichain",
   "networkId": 1662,
   "nativeCurrency": {
-    "name": "Testnet Zen",
-    "symbol": "tZEN",
+    "name": "Licoin",
+    "symbol": "LCN",
     "decimals": 18
   },
   "rpc": [],
   "faucets": [],
-  "infoURL": "https://horizen.io/"
+  "infoURL": "https://liquichain.io/"
 }, {
   "name": "Horizen Gobi Testnet",
   "chainId": 1663,
@@ -5936,7 +5949,7 @@
     "symbol": "NetZ",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.mainnetz.io"],
+  "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
   "faucets": ["https://faucet.mainnetz.io"],
   "infoURL": "https://mainnetz.io"
 }, {
@@ -6680,6 +6693,19 @@
   "rpc": ["https://rpc-testnet.morphism.xyz"],
   "faucets": [],
   "infoURL": "https://morphism.xyz"
+}, {
+  "name": "K-LAOS",
+  "chainId": 2718,
+  "shortName": "k-laos",
+  "networkId": 2718,
+  "nativeCurrency": {
+    "name": "KLAOS",
+    "symbol": "KLAOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.klaos.laosfoundation.io", "wss://rpc.klaos.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://www.laosfoundation.io/"
 }, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
@@ -8319,6 +8345,19 @@
   "faucets": [],
   "infoURL": "https://riseofthewarbots.com/"
 }, {
+  "name": "MaalChain Testnet",
+  "chainId": 7860,
+  "shortName": "maal-test",
+  "networkId": 7860,
+  "nativeCurrency": {
+    "name": "MAAL",
+    "symbol": "MAAL",
+    "decimals": 18
+  },
+  "rpc": ["https://node1.maalscan.io/", "https://rpc-bntest.maalscan.io/"],
+  "faucets": ["https://faucet-testnet.maalscan.io/"],
+  "infoURL": "https://www.maalchain.com/"
+}, {
   "name": "Hazlor Testnet",
   "chainId": 7878,
   "shortName": "tscas",
@@ -9852,6 +9891,19 @@
   "rpc": ["https://rpc.holesky.ethpandaops.io", "https://ethereum-holesky.publicnode.com", "wss://ethereum-holesky.publicnode.com"],
   "faucets": ["https://faucet.holesky.ethpandaops.io", "https://holesky-faucet.pk910.de"],
   "infoURL": "https://holesky.ethpandaops.io"
+}, {
+  "name": "Redstone Holesky Testnet",
+  "chainId": 17001,
+  "shortName": "redstone",
+  "networkId": 17001,
+  "nativeCurrency": {
+    "name": "Redstone Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.holesky.redstone.xyz"],
+  "faucets": [],
+  "infoURL": "https://redstone.xyz/docs/network-info"
 }, {
   "name": "G8Chain Mainnet",
   "chainId": 17171,
@@ -13498,8 +13550,8 @@
   "shortName": "DPU",
   "networkId": 2611555,
   "nativeCurrency": {
-    "name": "DGS",
-    "symbol": "DGS",
+    "name": "DGC",
+    "symbol": "DGC",
     "decimals": 18
   },
   "rpc": ["https://sc-rpc.dpu.ac.th"],
@@ -14169,7 +14221,7 @@
   "faucets": [],
   "infoURL": "https://meld.com"
 }, {
-  "name": "Calypso NFT Hub (SKALE Testnet)",
+  "name": "SKALE Calypso Hub Testnet",
   "chainId": 344106930,
   "shortName": "calypso-testnet",
   "networkId": 344106930,
@@ -14195,6 +14247,19 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
+  "name": "SKALE Europa Hub Testnet",
+  "chainId": 476158412,
+  "shortName": "europa-testnet",
+  "networkId": 476158412,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-legal-crazy-castor"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "infoURL": "https://europahub.network/"
+}, {
   "name": "Gather Devnet Network",
   "chainId": 486217935,
   "shortName": "dGTH",
@@ -14208,9 +14273,9 @@
   "faucets": [],
   "infoURL": "https://gather.network"
 }, {
-  "name": "Nebula Staging",
+  "name": "SKALE Nebula Hub Testnet",
   "chainId": 503129905,
-  "shortName": "nebula-staging",
+  "shortName": "nebula-testnet",
   "networkId": 503129905,
   "nativeCurrency": {
     "name": "sFUEL",
@@ -14218,7 +14283,7 @@
     "decimals": 18
   },
   "rpc": ["https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird", "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"],
-  "faucets": [],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
   "infoURL": "https://nebulachain.io/"
 }, {
   "name": "Zora Sepolia Testnet",
@@ -14312,6 +14377,19 @@
   "faucets": [],
   "infoURL": "https://aurora.dev"
 }, {
+  "name": "SKALE Titan Hub",
+  "chainId": 1350216234,
+  "shortName": "titan-mainnet",
+  "networkId": 1350216234,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.skalenodes.com/v1/parallel-stormy-spica", "wss://mainnet.skalenodes.com/v1/ws/parallel-stormy-spica"],
+  "faucets": ["https://sfuel.skale.network/"],
+  "infoURL": ""
+}, {
   "name": "Chaos (SKALE Testnet)",
   "chainId": 1351057110,
   "shortName": "chaos-tenet",
@@ -14338,7 +14416,7 @@
   "faucets": [],
   "infoURL": "https://raptorchain.io"
 }, {
-  "name": "Nebula Mainnet",
+  "name": "SKALE Nebula Hub",
   "chainId": 1482601649,
   "shortName": "nebula-mainnet",
   "networkId": 1482601649,
@@ -14348,10 +14426,23 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet.skalenodes.com/v1/green-giddy-denebola", "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"],
-  "faucets": [],
+  "faucets": ["https://sfuel.skale.network/"],
   "infoURL": "https://nebulachain.io/"
 }, {
-  "name": "Calypso NFT Hub (SKALE)",
+  "name": "SKALE Titan Hub Testnet",
+  "chainId": 1517929550,
+  "shortName": "titan-testnet",
+  "networkId": 1517929550,
+  "nativeCurrency": {
+    "name": "sFUEL",
+    "symbol": "sFUEL",
+    "decimals": 18
+  },
+  "rpc": ["https://staging-v3.skalenodes.com/v1/staging-aware-chief-gianfar", "wss://staging-v3.skalenodes.com/v1/ws/staging-aware-chief-gianfar"],
+  "faucets": ["https://sfuel.dirtroad.dev/staging"],
+  "infoURL": ""
+}, {
+  "name": "SKALE Calypso Hub",
   "chainId": 1564830818,
   "shortName": "calypso-mainnet",
   "networkId": 1564830818,
@@ -14481,7 +14572,7 @@
   "faucets": [],
   "infoURL": "https://www.DataHopper.com"
 }, {
-  "name": "Europa SKALE Chain",
+  "name": "SKALE Europa Hub",
   "chainId": 2046399126,
   "shortName": "europa",
   "networkId": 2046399126,

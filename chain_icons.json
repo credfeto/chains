@@ -79,6 +79,14 @@
     "format": "png"
   }]
 }, {
+  "name": "maal-test",
+  "icons": [{
+    "url": "ipfs://bafkreiexfqfe2x4impvwhra3xxa5eb25gv25zi3kkaoatdnld7wbxdzf2a",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "pwr",
   "icons": [{
     "url": "ipfs://QmRhQG9TZrXDdbQeTzBmjg3pqgwaD5TKVZj8k4kaz8AoZx",
@@ -433,7 +441,7 @@
 }, {
   "name": "nebula",
   "icons": [{
-    "url": "ipfs://QmfQkfmQuoUUUKwF1yCcrPEzFcWLaqNyiSv5YMcSj6zs74",
+    "url": "ipfs://bafybeic5eexvd34wfy4kuebcyu73qpkv3x57s54ebzjyhyjsmeuni5jwcm",
     "width": 500,
     "height": 500,
     "format": "png"
@@ -919,6 +927,14 @@
     "format": "png"
   }]
 }, {
+  "name": "redstone",
+  "icons": [{
+    "url": "ipfs://bafkreieyaqgkgntvxuo5tnhgseladga5q6gutc37dab7kqqfdguhq7vkxq",
+    "width": 5836,
+    "height": 5836,
+    "format": "png"
+  }]
+}, {
   "name": "canxium",
   "icons": [{
     "url": "ipfs://QmXHSbtVNCJVfe2CvRH7njdyf2SrX5u5bNTfvhqjLeFN2A",
@@ -1381,6 +1397,14 @@
     "width": 512,
     "height": 512,
     "format": "svg"
+  }]
+}, {
+  "name": "dodao",
+  "icons": [{
+    "url": "ipfs://QmdWsi6mhs6Agb3LF4uycUwx2fgNmwkuAGb7JmsLPkwd3j",
+    "width": 636,
+    "height": 629,
+    "format": "png"
   }]
 }, {
   "name": "adil",
@@ -2519,6 +2543,14 @@
     "format": "png"
   }]
 }, {
+  "name": "k-laos",
+  "icons": [{
+    "url": "ipfs://QmW26eoxJeyUfikZ4DUT1Gfk78sBkvydEo8QzHa1BXjUUL",
+    "width": 580,
+    "height": 580,
+    "format": "png"
+  }]
+}, {
   "name": "taraxa",
   "icons": [{
     "url": "ipfs://QmQhdktNyBeXmCaVuQpi1B4yXheSUKrJA17L4wpECKzG5D",
@@ -2735,6 +2767,14 @@
     "format": "png"
   }]
 }, {
+  "name": "titan",
+  "icons": [{
+    "url": "ipfs://bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }]
+}, {
   "name": "baseTestnet",
   "icons": [{
     "url": "ipfs://QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv",
@@ -2852,6 +2892,14 @@
     "url": "ipfs://QmbENgHTymTUUArX5MZ2XXH69WGenirU3oamkRD448hYdz",
     "width": 282,
     "height": 250,
+    "format": "png"
+  }]
+}, {
+  "name": "pnet",
+  "icons": [{
+    "url": "ipfs://QmRiAUu3xV5uiX6Nk1iXD5w6qjki5ugGFETRVavzJ2h5QF",
+    "width": 370,
+    "height": 320,
     "format": "png"
   }]
 }, {

@@ -438,7 +438,7 @@
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.scai.network"],
-  "faucets": ["https://faucet.securechain.ai"],
+  "faucets": [],
   "infoURL": "https://securechain.ai"
 }, {
   "name": "TBWG Chain",
@@ -2570,7 +2570,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.egonscan.com"],
-  "faucets": ["https://faucet.egonscan.com"],
+  "faucets": [],
   "infoURL": "https://egonscan.com"
 }, {
   "name": "LaChain",
@@ -3456,6 +3456,19 @@
   "rpc": ["https://rpc-testnet.vne.network"],
   "faucets": ["https://vne.network/rose"],
   "infoURL": "https://www.peer.inc"
+}, {
+  "name": "EIOB Mainnet",
+  "chainId": 612,
+  "shortName": "eiob",
+  "networkId": 612,
+  "nativeCurrency": {
+    "name": "EIOB",
+    "symbol": "EIOB",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eiob.xyz"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Graphlinq Blockchain Mainnet",
   "chainId": 614,
@@ -5485,7 +5498,7 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
-  "name": "BEVM",
+  "name": "BEVM Canary",
   "chainId": 1501,
   "shortName": "chainx",
   "networkId": 1501,
@@ -5494,7 +5507,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc-1.bevm.io/", "https://rpc-2.bevm.io/"],
+  "rpc": ["https://rpc-canary-1.bevm.io/", "https://rpc-canary-2.bevm.io/"],
   "faucets": [],
   "infoURL": "https://chainx.org"
 }, {
@@ -6202,15 +6215,15 @@
 }, {
   "name": "MainnetZ Mainnet",
   "chainId": 2016,
-  "shortName": "NetZm",
+  "shortName": "netz",
   "networkId": 2016,
   "nativeCurrency": {
-    "name": "mainnetz",
+    "name": "MainnetZ",
     "symbol": "NetZ",
     "decimals": 18
   },
   "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
-  "faucets": ["https://faucet.mainnetz.io"],
+  "faucets": [],
   "infoURL": "https://mainnetz.io"
 }, {
   "name": "PublicMint Devnet",
@@ -10698,6 +10711,19 @@
   "faucets": [],
   "infoURL": "https://p12.network"
 }, {
+  "name": "Jono11 Subnet",
+  "chainId": 20765,
+  "shortName": "jono11",
+  "networkId": 20765,
+  "nativeCurrency": {
+    "name": "Jono11 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "rpc": ["https://subnets.avax.network/jono11/testnet/rpc"],
+  "faucets": [],
+  "infoURL": ""
+}, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
   "shortName": "cennz-a",
@@ -11087,6 +11113,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://filecoin.io"
+}, {
+  "name": "W3Gamez Holesky Testnet",
+  "chainId": 32001,
+  "shortName": "w3gamez",
+  "networkId": 32001,
+  "nativeCurrency": {
+    "name": "W3Gamez Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-holesky.w3gamez.network"],
+  "faucets": [],
+  "infoURL": "https://web3games.com/"
 }, {
   "name": "Bitgert Mainnet",
   "chainId": 32520,
@@ -15179,7 +15218,7 @@
     "symbol": "gMELD",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/meld/testnet/rpc"],
+  "rpc": ["https://testnet-rpc.meld.com"],
   "faucets": [],
   "infoURL": "https://meld.com"
 }, {
@@ -15257,7 +15296,7 @@
     "symbol": "gMELD",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/meld/mainnet/rpc"],
+  "rpc": ["https://rpc-1.meld.com"],
   "faucets": [],
   "infoURL": "https://meld.com"
 }, {

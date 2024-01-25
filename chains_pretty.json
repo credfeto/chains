@@ -663,7 +663,7 @@
   "chain": "SCAI",
   "icon": "scaiIcon",
   "rpc": ["https://mainnet-rpc.scai.network"],
-  "faucets": ["https://faucet.securechain.ai"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "SecureChain",
     "symbol": "SCAI",
@@ -3952,7 +3952,7 @@
   "chain": "EGON",
   "icon": "egonicon",
   "rpc": ["https://rpc.egonscan.com"],
-  "faucets": ["https://faucet.egonscan.com"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "EgonCoin",
     "symbol": "EGON",
@@ -5527,6 +5527,26 @@
     "url": "https://vne.network/rose",
     "standard": "none",
     "icon": "vine"
+  }]
+}, {
+  "name": "EIOB Mainnet",
+  "chain": "EIOB",
+  "icon": "eiob",
+  "rpc": ["https://rpc.eiob.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EIOB",
+    "symbol": "EIOB",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "eiob",
+  "chainId": 612,
+  "networkId": 612,
+  "explorers": [{
+    "name": "EIOB Explorer",
+    "url": "https://explorer.eiob.xyz",
+    "standard": "none"
   }]
 }, {
   "name": "Graphlinq Blockchain Mainnet",
@@ -8679,9 +8699,9 @@
     "standard": "none"
   }]
 }, {
-  "name": "BEVM",
+  "name": "BEVM Canary",
   "chain": "ChainX",
-  "rpc": ["https://rpc-1.bevm.io/", "https://rpc-2.bevm.io/"],
+  "rpc": ["https://rpc-canary-1.bevm.io/", "https://rpc-canary-2.bevm.io/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "BTC",
@@ -8692,9 +8712,10 @@
   "shortName": "chainx",
   "chainId": 1501,
   "networkId": 1501,
+  "icon": "bevmcanary",
   "explorers": [{
-    "name": "bevm scan",
-    "url": "https://scan.bevm.io",
+    "name": "bevm canary scan",
+    "url": "https://scan-canary.bevm.io",
     "standard": "none"
   }]
 }, {
@@ -9801,14 +9822,14 @@
   "chain": "NetZ",
   "icon": "mainnetz",
   "rpc": ["https://mainnet-rpc.mainnetz.io", "https://eu-rpc.mainnetz.io"],
-  "faucets": ["https://faucet.mainnetz.io"],
+  "faucets": [],
   "nativeCurrency": {
-    "name": "mainnetz",
+    "name": "MainnetZ",
     "symbol": "NetZ",
     "decimals": 18
   },
   "infoURL": "https://mainnetz.io",
-  "shortName": "NetZm",
+  "shortName": "netz",
   "chainId": 2016,
   "networkId": 2016,
   "explorers": [{
@@ -17019,6 +17040,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Jono11 Subnet",
+  "chain": "JONO11",
+  "icon": "jono11",
+  "rpc": ["https://subnets.avax.network/jono11/testnet/rpc"],
+  "features": [{
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Jono11 Token",
+    "symbol": "JONO",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "jono11",
+  "chainId": 20765,
+  "networkId": 20765,
+  "explorers": [{
+    "name": "JONO11 Explorer",
+    "url": "https://subnets-test.avax.network/jono11",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "CENNZnet Azalea",
   "chain": "CENNZnet",
   "rpc": ["https://cennznet.unfrastructure.io/public"],
@@ -17628,6 +17672,28 @@
   "networkId": 31415,
   "slip44": 1,
   "explorers": []
+}, {
+  "name": "W3Gamez Holesky Testnet",
+  "chain": "ETH",
+  "rpc": ["https://rpc-holesky.w3gamez.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "W3Gamez Testnet Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://web3games.com/",
+  "shortName": "w3gamez",
+  "chainId": 32001,
+  "networkId": 32001,
+  "slip44": 1,
+  "icon": "w3gamez",
+  "explorers": [{
+    "name": "W3Gamez Holesky Explorer",
+    "url": "https://w3gamez-holesky.web3games.com",
+    "icon": "web3games",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Bitgert Mainnet",
   "chain": "Brise",
@@ -24227,7 +24293,7 @@
   "name": "Kanazawa",
   "title": "Meld Testnet Kanazawa",
   "chain": "Kanazawa",
-  "rpc": ["https://subnets.avax.network/meld/testnet/rpc"],
+  "rpc": ["https://testnet-rpc.meld.com"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -24242,6 +24308,11 @@
   "networkId": 222000222,
   "slip44": 1,
   "explorers": [{
+    "name": "explorer",
+    "url": "https://testnet.meldscan.io",
+    "icon": "meld",
+    "standard": "EIP3091"
+  }, {
     "name": "explorer",
     "url": "https://subnets-test.avax.network/meld",
     "icon": "meld",
@@ -24366,7 +24437,7 @@
   "name": "Meld",
   "title": "Meld Mainnet",
   "chain": "MELD",
-  "rpc": ["https://subnets.avax.network/meld/mainnet/rpc"],
+  "rpc": ["https://rpc-1.meld.com"],
   "faucets": [],
   "features": [],
   "nativeCurrency": {
@@ -24380,6 +24451,11 @@
   "chainId": 333000333,
   "networkId": 333000333,
   "explorers": [{
+    "name": "explorer",
+    "url": "https://meldscan.io",
+    "icon": "meld",
+    "standard": "EIP3091"
+  }, {
     "name": "explorer",
     "url": "https://subnets.avax.network/meld",
     "icon": "meld",

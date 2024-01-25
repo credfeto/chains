@@ -127,6 +127,14 @@
     "format": "png"
   }]
 }, {
+  "name": "jono11",
+  "icons": [{
+    "url": "ipfs://bafkreievzx4ke62dtc77o47x7vs7nn67ghzrwku6h5dxo3hwcsqfeblke4",
+    "width": 612,
+    "height": 612,
+    "format": "png"
+  }]
+}, {
   "name": "titan",
   "icons": [{
     "url": "ipfs://bafkreiagrt5dhgltg2kmw7hf24kslstr5h42e745luuxwp2wbg24gm6zza",
@@ -2023,6 +2031,14 @@
     "format": "jpg"
   }]
 }, {
+  "name": "bevmcanary",
+  "icons": [{
+    "url": "ipfs://QmfMXiYn4xF9JwdjaqM5YKhqoByox51XvnL68VvKJS6yyu",
+    "width": 1000,
+    "height": 1000,
+    "format": "png"
+  }]
+}, {
   "name": "fnc",
   "icons": [{
     "url": "ipfs://bafkreifx4vef7ubqz4iiaxckcvkdwjrp2hbliljwjlwu2vytlngg3r4pg4",
@@ -2524,6 +2540,14 @@
     "url": "ipfs://bafybeib75gwytvblyvjpfminitr3i6mpat3a624udfsqsl5nysf5vuuvie",
     "width": 96,
     "height": 96,
+    "format": "png"
+  }]
+}, {
+  "name": "eiob",
+  "icons": [{
+    "url": "ipfs://QmfJLG2mXgSqKx2V3A2jzTwt4vkozvQTTXkRy3os27wEVm",
+    "width": 48,
+    "height": 48,
     "format": "png"
   }]
 }, {
@@ -3156,6 +3180,14 @@
     "url": "ipfs://QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ",
     "width": 800,
     "height": 800,
+    "format": "png"
+  }]
+}, {
+  "name": "w3gamez",
+  "icons": [{
+    "url": "ipfs://QmaQdiE7vwxKeuWCjk4nKBikcpg4XCzQkFWGrAZHmMKnrq",
+    "width": 400,
+    "height": 400,
     "format": "png"
   }]
 }, {
